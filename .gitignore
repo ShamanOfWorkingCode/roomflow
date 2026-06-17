@@ -1,0 +1,29 @@
+# dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# builds
+dist/
+build/
+
+# env files
+.env
+.env.local
+backend/.env
+frontend/.env
+
+# logs
+*.log
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Python (если вдруг backend на python)
+__pycache__/
+*.pyc

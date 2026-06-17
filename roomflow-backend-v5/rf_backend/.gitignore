@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables (содержит секреты — DATABASE_URL, пароли)
+.env
+.env.local
+
+# SQLite (если тестируешь локально без Postgres)
+*.db
+*.sqlite3
+
+# Alembic
+# (миграции коммитить нужно, но не локальные временные файлы)
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
